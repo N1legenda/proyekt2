@@ -16,7 +16,6 @@ body {}
 .header {
     width: 100%;
     height: 100%;
-    height: 100vh;
     background-image: url(../images/Rectangle.png);
     background-size: cover;
     background-position: center;
@@ -100,14 +99,21 @@ body {}
     color: #D4C17F;
     font-size: 40px;
     font-weight: 100;
+    width: 100px;
+    height: 100px;
 }
 
 .header-mause i {
     font-size: 50px;
     font-weight: 100;
 
-}
 
+}
+.header-mause i:hover{
+    font-size: 60px;
+    cursor: pointer;
+
+}
 .header-malumot {
     color: #FFFFFF;
     display: flex;
@@ -241,6 +247,7 @@ body {}
     width: 535px;
     padding-top: 50px;
 }
+
 .contacts__contact {
     max-width: 530px;
     width: 100%;
@@ -256,6 +263,8 @@ body {}
     background-color: #FFFFFF;
     border: none;
     opacity: 0.2;
+    font-size: 16px;
+    text-align: center;
 }
 
 .contacts__opwiy {
@@ -270,6 +279,8 @@ body {}
     background-color: #FFFFFF;
     border: none;
     opacity: 0.2;
+    font-size: 16px;
+    text-align: center;
 }
 
 .contacts__button {
@@ -282,12 +293,181 @@ body {}
 }
 
 .contacts__context {
-    width: 230px;
+    width: 235px;
     height: 28px;
     font-size: 13px;
     font-weight: 400;
     line-height: 13px;
     text-align: center;
     color: #E7E7E7;
+    padding-bottom: 190px;
+    
 
+}
+
+.contacts__button:hover {
+    color: #242B33;
+    background-color: #ffffff;
+}
+
+.housevop-video {
+    background-color: #242B33;
+
+}
+
+.housevop-video__bcg {
+    padding-top: 30px;
+    background-image: url(..//images/rasm\ 2.png);
+    width: 719px;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.housevop-video__bcg i {
+    font-size: 100px;
+    color: #D4C17F;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+
+.opwy {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.housevop-card {
+    background-color: #242B33;
+}
+
+.housevop-card__title {
+    padding-top: 180px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    font-family: "Playfair Display";
+}
+
+.housevop-card__card {
+    padding-top: 100px;
+}
+
+.housevop-what {
+    background-color: #242B33;
+
+}
+
+.housevop-what__tittle {
+    padding-top: 180px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    font-family: "Playfair Display";
+}
+
+.housevop-what__buttons {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.what-input {
+    width: 255px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #242B33;
+    opacity: 0.2;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+}
+
+.what-button {
+    width: 255px;
+    height: 50px;
+    background-color: #D4C17F;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.what-button:hover {
+    color: #242B33;
+    background-color: #ffffff;
+}
+
+.what__text {
+    padding-top: 10px;
+    width: 255px;
+    height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Raleway";
+    line-height: 16px;
+    padding-bottom: 180px;
+}
+
+.hovsevop-end {
+    background-color: #2D343C;
+    width: 100%;
+    height: 272px;
+
+}
+
+.end-title {
+    padding-top: 60px;
+
+}
+
+.end-title__text {
+    width: 134px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.end-footer{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway";
+    line-height: 16px;
+}
+.end-links {
+    list-style: none;
+    display: flex;
+    margin: 15px;
+}
+
+.end-item {
+    color: #FFFFFF;
+
+}
+.end-opwiy{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.end-links4{
+    list-style: none;
+    display: flex;
+    margin: 15px;
+    font-size: 28px;
+    width: 146px;
+    justify-content: space-around;
 }

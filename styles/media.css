@@ -1,0 +1,70 @@
+@media (max-width:1200px) {
+    .cvartirss__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .contacts__opwiy {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .housevop-what__buttons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:992px) {
+    .housevop-what__buttons {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media (max-width:768px) {
+    .header-nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:576px) {
+    .opshiy {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header-nav {
+
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+    .nav-links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contacts__contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hovsevop-end{
+        height: 100%;
+    }
+    .end-opwiy{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+}
